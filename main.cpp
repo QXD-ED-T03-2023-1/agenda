@@ -1,6 +1,6 @@
-#include <iostream>
 #include <vector>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -22,6 +22,10 @@ int main() {
 
     agenda.push_back(inicial);
     agenda.push_back(segundo);
+
+    cout << agenda[0].nome << "\n" << agenda[0].numero << "\n";
+
+    agenda.pop_back();
 
     cout << agenda[0].nome << "\n" << agenda[0].numero << "\n";
     cout << agenda[1].nome << "\n" << agenda[1].numero << "\n";
