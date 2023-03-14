@@ -1,8 +1,10 @@
 #include <string>
 
+using namespace std;
+
 struct Contato {
-    std::string nome;
-    std::string numero;
+    string nome;
+    string numero;
 };
 
 int main() {
